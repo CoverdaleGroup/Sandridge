@@ -48,7 +48,7 @@ Authors: Coverdale Group
 
 .header-navigation {
     height: 30px;
-    background-color: #636467;
+    background-color: #334e82;
 }
 
 .header-navigation ul {
@@ -265,6 +265,10 @@ input, button, select, textarea {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #9a9a9a;
+}
+
+.navbar-default {
+    background-color: #ff8300;
 }
 .navbar-nav li.dropdown li > a {
     color: #043b55;
