@@ -68,8 +68,12 @@ Authors: Coverdale Group
 }
 
 .header-navigation .badge {
-    background-color:#0060A0;
+    background-color:#fff;
     margin-left:3px;
+}
+
+.badge {
+    color: #334e82;
 }
 
 .header-navigation a:hover i {
@@ -344,4 +348,8 @@ input, button, select, textarea {
 .navbar-fixed-bottom {
     position: relative;
     margin-bottom: 15px;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    opacity: .99;
 }
