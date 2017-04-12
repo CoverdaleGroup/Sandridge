@@ -23,7 +23,15 @@ Authors: Coverdale Group
     font-weight: bold;
 }
 
+.btn-success {
+    background-color: #ff8300;
 
+}
+
+.panel-primary .panel-heading .panel-title {
+    background-color: #334E82;
+
+}
 /******************/
 
 #content {
