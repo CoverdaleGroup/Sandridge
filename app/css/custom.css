@@ -367,3 +367,27 @@ p ul {
     list-style-type: disc;
     padding: 15px;
 }
+
+.galleryImages li {
+    list-style-type:none;
+}
+
+.galleryImages a {
+    display:block;
+}
+
+.galleryImages a.no-click {
+    cursor:none;
+    pointer-events: none;
+}
+
+.galleryImages .product-image-large {
+    display:none;
+}
+
+.galleryImages .active .product-image-large {
+    display:block !important;
+    max-width: 100%;
+    position:relative;
+    top:0;
+}
