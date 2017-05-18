@@ -387,13 +387,13 @@ function lightboxSrc($window, ImageLoader, Lightbox) {
                 angular.element(
                     document.querySelector('.lightbox-modal .modal-dialog')
                 ).css({
-                        'width': modalDimensions.width + 'px'
-                    });
+                    'width': modalDimensions.width + 'px'
+                });
                 angular.element(
                     document.querySelector('.lightbox-modal .modal-content')
                 ).css({
-                        'height': modalDimensions.height + 'px'
-                    });
+                    'height': modalDimensions.height + 'px'
+                });
             };
             scope.$watch(function () {
                 return attrs.lightboxSrc;
