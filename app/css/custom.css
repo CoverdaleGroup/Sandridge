@@ -361,3 +361,9 @@ input, button, select, textarea {
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
     opacity: .99;
 }
+
+p ul {
+
+    list-style-type: disc;
+    padding: 15px;
+}
